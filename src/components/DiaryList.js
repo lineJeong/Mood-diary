@@ -83,7 +83,7 @@ function DiaryList({ diaryList }) {
         <div className="right_col">
           <MyButton
             type={"positive"}
-            text={"New diary"}
+            text={"Create a new diary"}
             onClick={() => navigate("/new")}
           />
         </div>
