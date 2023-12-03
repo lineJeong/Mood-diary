@@ -62,7 +62,7 @@ function DiaryEditor({ isEdit, originData }) {
     <div className="DiaryEditor">
       <MyHeader
         headText={isEdit ? "Edit a diary" : "Create a new diary"}
-        leftChild={<MyButton text={"Back"} onClick={() => navigate(-1)} />}
+        leftChild={<MyButton text={"< Back"} onClick={() => navigate(-1)} />}
         rightChild={
           isEdit && (
             <MyButton
